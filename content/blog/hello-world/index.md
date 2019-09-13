@@ -25,4 +25,4 @@ Til' next time! 👋
 
 Here's a lil something to keep you while you wait...me 😉
 
-![me](./profile-pic1.jpg)
+![me](./profile-pic.jpg)
