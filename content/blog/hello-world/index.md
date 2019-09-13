@@ -1,22 +1,28 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+date: "2019-09-12T20:35:03.284Z"
+description: "My first blog post living the bay area working as a software engineer!"
 ---
 
-This is my first post on my new fake blog! How exciting!
+So this is my first post on my new blog, almost 5 months into my new job at Uber as a software engineer!
 
-I'm sure I'll write a lot more interesting things in the future.
+**Couple things I plan on writing about:**
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+- My life working as an engineer with Uber
+- Things I like/dislike about living in the Bay Area as a new environment
+- Tech I learned and/or want to learn
+- Random stuff I would like to put online (most exciting!)
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+So stay tuned, in the meantime here's a couple inspiring quotes by [Daisaku Ikdea](https://www.daisakuikeda.org)
 
-![Chinese Salty Egg](./salty_egg.jpg)
+> With love and patience, nothing is impossible.
+
+> A person, who no matter how desperate the situation, gives others hope, is a true leader.
+
+> The determination to win is the better part of winning.
+
+Til' next time! 👋
+
+Here's a lil something to keep you while you wait...me 😉
+
+![me](./profile-pic1.jpg)
