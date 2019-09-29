@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Gerard Degas Blog`,
     author: `Gerard Degas`,
-    description: `A blog to give the curious a taste`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Writings on web development, software engineering and life in San Francisco`,
+    siteUrl: `https://gerarddegas.netlify.com/`,
     social: {
       twitter: `gdegas`,
       instagram: `gdegas001`
@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-148352392-2`,
       },
     },
     `gatsby-plugin-feed`,

@@ -67,6 +67,18 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `instagram:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `instagram:title`,
+          content: title,
+        },
+        {
+          name: `instagram:description`,
+          content: metaDescription,
+        },
       ].concat(meta)}
     />
   )

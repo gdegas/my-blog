@@ -65,7 +65,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">❤️</a>
+          <a href="https://www.gatsbyjs.org"><span role="img" aria-label="emoji link">️❤️</span></a>
         </footer>
       </div>
     )
