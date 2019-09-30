@@ -2,7 +2,7 @@ body {
   --bg: white;
   --textNormal: #222;
   --textTitle: #222;
-  --textLink: blue;
+  --textLink: #0e43bb;
   --hr: hsla(0, 0%, 0%, 0.2);
 
   background-color: var(--bg);

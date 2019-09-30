@@ -13,7 +13,7 @@ So this is my first post on my new blog, almost 5 months into my new job at Uber
 - Tech I learned and/or want to learn
 - Random stuff I would like to put online (most exciting!)
 
-So stay tuned, in the meantime here's a couple inspiring quotes by [Daisaku Ikdea](https://www.daisakuikeda.org)
+So stay tuned, in the meantime here's a couple inspiring quotes by [Daisaku Ikeda](https://www.daisakuikeda.org)
 
 > With love and patience, nothing is impossible.
 

@@ -23,6 +23,8 @@ class BlogIndex extends React.Component {
               <header>
                 <h3
                   style={{
+                    fontFamily: "Montserrat, sans-serif",
+                    fontSize: "1.75rem",
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
