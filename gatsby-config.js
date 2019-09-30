@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gerard Degas Blog`,
+    title: `Gerard's Blog`,
     author: `Gerard Degas`,
-    description: `Writings on web development, software engineering and life in San Francisco`,
+    description: `Writings on web development, software engineering, React, Node, JavaScript, Tech, Bay area and working with Uber`,
     siteUrl: `https://gerarddegas.netlify.com/`,
     social: {
       twitter: `gdegas`,
-      instagram: `gdegas001`
+      instagram: `gdegas001`,
     },
   },
   plugins: [
@@ -75,5 +75,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-dark-mode`,
   ],
 }

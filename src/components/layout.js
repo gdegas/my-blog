@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "./layout.css"
 import { rhythm, scale } from "../utils/typography"
+import ThemeToggle from "./ThemeToggler"
 
 class Layout extends React.Component {
   render() {
@@ -11,62 +13,91 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+        <div
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            display: "flex",
+            justifyContent: "space-between",
           }}
         >
-          <Link
+          <h1
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              ...scale(1.5),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+          <ThemeToggle />
+        </div>
       )
     } else {
       header = (
-        <h3
+        <div
           style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
+            display: "flex",
+            justifyContent: "space-between",
           }}
         >
-          <Link
+          <h3
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              fontFamily: `Montserrat, sans-serif`,
+              marginTop: 0,
             }}
-            to={`/`}
           >
-            {title}
-          </Link>
-        </h3>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h3>
+          <ThemeToggle />
+        </div>
       )
     }
     return (
       <div
         style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          color: "var(--textNormal)",
+          background: "var(--bg)",
+          transition: "color 0.2s ease-out, background 0.2s ease-out",
+          minHeight: "100vh",
         }}
       >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org"><span role="img" aria-label="emoji link">️❤️</span></a>
-        </footer>
+        <div
+          style={{
+            marginLeft: `auto`,
+            marginRight: `auto`,
+            maxWidth: rhythm(24),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer>
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">
+              <span role="img" aria-label="emoji link">
+                ️❤️
+              </span>
+            </a>
+          </footer>
+        </div>
       </div>
     )
   }
