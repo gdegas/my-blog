@@ -5260,6 +5260,13 @@ gatsby-page-utils@^0.0.17:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
+gatsby-plugin-dark-mode@^1.1.0:
+  version "1.1.0"
+  resolved "https://unpm.uberinternal.com/gatsby-plugin-dark-mode/-/gatsby-plugin-dark-mode-1.1.0.tgz#ee4349d69448cefaab077de4abd8e90c1ee0152f"
+  integrity sha1-7kNJ1pRIzvqrB33kq9jpDB7gFS8=
+  dependencies:
+    prop-types "^15.5.7"
+
 gatsby-plugin-feed@^2.3.12:
   version "2.3.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.3.12.tgz#60ea4ab45f486da1e565b38b87919adcb11f7ec9"
@@ -9886,7 +9893,7 @@ prompts@^2.2.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==

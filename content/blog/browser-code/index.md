@@ -6,7 +6,7 @@ description: "JS things for the browser"
 
 ##Browser functions
 
-#####smoothScroll
+####smoothScroll
 
 Smoothly scrolls the element on which it's called into the visible area of the browser window.
 
@@ -19,7 +19,7 @@ const smoothScroll = element =>
 
 ```
 
-#####scrollToTop
+####scrollToTop
 
 ```javascript
 const scrollToTop = () => {
@@ -31,7 +31,7 @@ const scrollToTop = () => {
 };
 ```
 ---
-#####Returns the *scroll position* of the current page.
+####Returns the *scroll position* of the current page.
 
 Use `pageXOffset` and `pageYOffset` if they are defined, otherwise scrollLeft and scrollTop. You can omit el to use a default value of window.
 
@@ -43,7 +43,7 @@ const getScrollPosition = (el = window) => ({
 ```
 ---
 
-#####elementIsVisibleInViewport
+####elementIsVisibleInViewport
 
 Returns true if the element specified is visible in the viewport, false otherwise.
 
@@ -65,7 +65,7 @@ elementIsVisibleInViewport(el); // false - (not fully visible)
 elementIsVisibleInViewport(el, true); // true - (partially visible)
 ```
 ---
-#####detectDeviceType
+####detectDeviceType
 
 Detects whether the website is being opened in a mobile device or a desktop/laptop.
 
@@ -81,7 +81,7 @@ EXAMPLES
 detectDeviceType(); // "Mobile" or "Desktop"
 ```
 
-#####getStyle
+####getStyle
 
 Returns the value of a CSS rule for the specified element.
 
@@ -95,7 +95,7 @@ getStyle(document.querySelector('p'), 'font-size'); // '16px'
 ```
 
 
-#####triggerEvent
+####triggerEvent
 
 Triggers a specific event on a given element, optionally passing custom data.
 
@@ -110,7 +110,7 @@ triggerEvent(document.getElementById('myId'), 'click');
 triggerEvent(document.getElementById('myId'), 'click', { username: 'bob' });
 ```
 
-#####recordAnimationFrames
+####recordAnimationFrames
 
 Invokes the provided callback on each animation frame.
 
@@ -146,7 +146,7 @@ recorder.start(); // starts again
 const recorder2 = recordAnimationFrames(cb, false); // `start` needs to be explicitly called to begin recording frames
 ```
 
-#####httpsRedirect
+####httpsRedirect
 
 Redirects the page to HTTPS if its currently in HTTP. Also, pressing the back button doesn't take it back to the HTTP page as its replaced in the history.
 
@@ -162,7 +162,7 @@ EXAMPLES
 httpsRedirect(); // If you are on http://mydomain.com, you are redirected to https://mydomain.com
 ```
 
-#####serializeForm
+####serializeForm
 
 Encode a set of form elements as a query string.
 
@@ -176,7 +176,7 @@ EXAMPLES
 serializeForm(document.querySelector('#form')); // email=test%40email.com&name=Test%20Name
 ```
 
-#####formToObject
+####formToObject
 
 Encode a set of form elements as an object.
 
