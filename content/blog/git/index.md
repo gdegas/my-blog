@@ -7,21 +7,26 @@ description: "Useful things to do with GIT"
 **Git**
 
 Temporarily go back to a commit
+
 ```git
 # This will detach your HEAD, that is, leave you with no branch checked out:
 git checkout 0d1d7fc32
 ```
+
 If you want to make commits while you're there, go ahead and make a new branch while you're at it:
+
 ```git
 git checkout -b old-state 0d1d7fc32
 ```
 
 Revert to previous commit
+
 ```git
 git reset --hard HEAD
 ```
 
 Tell git to skip tracking changes on updates of a file
+
 ```bash
 git update-index --skip-worktree {filepath here}
 
@@ -65,10 +70,31 @@ git stash apply
 ```
 
 To find commits of the author
+
 ```bash
 git log --author=Oguzhan
 
 # Check commit with message
 git show --color --pretty=format:%b c2b88ed806fb5728a376bddab0c0e6d13d1ee15a
 
+```
+
+Branch off a branch and how to rebase/land without messing up commit history
+
+```bash
+git checkout branch1
+git add .
+git commit -m "first commit"
+git push...
+git checkout -b branch2
+git add .
+git commit -m "first commit, branch 2"
+git checkout branch1
+arc land
+git checkout branch2
+git reset HEAD~3 (however many commits until back to inline with branch1)
+git checkout master
+git checkout -b newBranch
+git add .
+git commit -m "Now were back to where we were in branch2 work with aligned commit history!"
 ```
