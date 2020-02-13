@@ -98,3 +98,15 @@ git checkout -b newBranch
 git add .
 git commit -m "Now were back to where we were in branch2 work with aligned commit history!"
 ```
+
+When receiving error message:
+
+```bash
+Usage Exception: There are multiple revisions on feature branch 'newbranch' which are not present on 'devel': -D newbranch1 -D othernew branch
+```
+
+Solution:
+
+```bash
+arc land --revision D123 --onto devel
+```
