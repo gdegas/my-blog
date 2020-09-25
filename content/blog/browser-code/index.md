@@ -6,7 +6,7 @@ description: "JS things for the browser"
 
 ##Browser functions
 
-####smoothScroll
+####SmoothScroll
 
 Smoothly scrolls the element on which it's called into the visible area of the browser window.
 
